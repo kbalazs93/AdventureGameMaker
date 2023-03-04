@@ -1,7 +1,6 @@
-from adventures.forest_dungeon import create_game
+from adventures.forest_dungeon import ForestDungeon
 
-game = create_game()
-game.start()
+ForestDungeon.start()
 
 
 

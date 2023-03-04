@@ -16,8 +16,10 @@ Merre vigyen tovább az utad? """
 summer_field = Room("Mező a faluhatárban", summer_field_description)
 
 
-def create_game():
-    return Game(welcome_text, summer_field)
+class ForestGame(Game):
+
+    def __init__(self):
+        super(ForestGame, self).__init__(welcome_text, starting_room=summer_field)
 
 
-
+ForestDungeon = ForestGame()
