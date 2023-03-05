@@ -5,7 +5,7 @@ class KeywordProcessor(object):
 
     def isAswerInKeywordCollection(self, answer, keywordCollection):
         for keyword in keywordCollection:
-            if keyword in answer:
+            if keyword.lower() in answer.lower():
                 self._lastFoundKeyword = keyword
                 return True
         return False

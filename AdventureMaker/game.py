@@ -14,6 +14,8 @@ class Game(object):
         self.rooms[self.current_room].Enter()
         while True:
             answer = input(" > ")
+            print("")
+            answer = answer.lower()
             if answer == "exit":
                 break
             elif self.keyword_processor.isAswerInKeywordCollection(answer, self.rooms[self.current_room].directions):
