@@ -6,6 +6,6 @@ A mező északi részén az Északi erdő fái lengetik lombjaikat, lassanként 
 Kelet felé járva a Kis Patak vize öntözi a földeket, melyek bő termést biztosítanak a falu számára.
 Merre vigyen tovább az utad? """
 
-directions = ["patak", "georg"]
+directions = ["patak", "georg", "erd"]
 
 summer_field = Room("Mező a faluhatárban", summer_field_description, directions=directions)
