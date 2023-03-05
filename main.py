@@ -1,8 +1,3 @@
-from adventures.forest_dungeon import ForestDungeon
+from adventures.forest_dungeon.forest_dungeon import ForestDungeon
 
 ForestDungeon.start()
-
-
-
-
-
